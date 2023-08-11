@@ -1,0 +1,15 @@
+PRINCIPE DU JEU :
+
+Ce jeux consiste à vous faire deviner un nombre pseudo-aléatoire entre 1 et 100 c'est à dire à chaque fois que vous lancer le programme le nombre va changer;
+Il y aura des instructions qui vous permettront de deviner le nombre , comme par exemple si le nombre que vous avez taper est plus grand que le nombre à deviner , le programme affichera une instruction que le nombre est plus grand . 
+Mais attention, vous n' avez que 7 coups pour le deviner ; alors si ces 7 coups sont dépensés alors cela signifie que vous avez perdu!
+
+
+TECHNIQUES UTILISÉS :
+
+Dans ce jeu ,j'ai utilisé une variable "dev" pour que le joueur puisse saisir le nombre mystère , une variable "compteur" pour compter le nombre de coup et une variable qui prendera la valeur du nombre mystère que j'ai pu utilisé grace à la foncction "srand" qui est une fonction qui génére des nombres pseudo-aléatoires entre 1 et 100 , ensuite j' ai fait l' usage d' un boucle "while" pour gérer les conditions de la façon suivante : 
+	*une condition pour le compteur différent de zéro et le nombre différent du nombre saisi au clavier :
+		_ si nombre aléatoire est supèrieur au nombre saisi par le joueur , le programme affiche une instruction qui l' indique.
+		_ si nombre aléatoire inférieur au nombre saisi , il y aurait un affichage qui l' indique.
+		_sinon (nombre aléatoire égale au nombre saisi) , le programme indique que vous venez de deviner le nombre.
+	*un "if" en dehors du boucle "while" pour conditionner le compteur quand il est égale à zéro et qui affiche l' instruction que vous avez perdu.

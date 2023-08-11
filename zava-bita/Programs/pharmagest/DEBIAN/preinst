@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "INSTALLATION"
+i=0
+while [ $i -le 10 ]
+do
+	if [ $((i%2)) -eq 0 ]
+	then
+		echo -e '\e[92m     __    \e[o'	
+		echo -e '\e[92m    |  |   \e[o'
+		echo -e	'\e[92m ___|  |___\e[o'
+		echo -e '\e[92m|___   ____|\e[o'
+		echo -e '\e[92m    |  |    \e[o'
+		echo -e '\e[92m    |__|   \e[o'
+	sleep 0.5;clear
+	else
+		echo -e '\e[93m   __  \e[o'
+		echo -e	'\e[93m _|  |_\e[o'
+		echo -e '\e[93m|_    _|\e[o'
+		echo -e '\e[93m  |__|  \e[o'
+	sleep 0.5;clear
+	fi
+	i=$((i+1))
+done

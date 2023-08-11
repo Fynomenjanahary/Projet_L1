@@ -1,0 +1,10 @@
+Package: pharmagest
+Version: 1.O
+Section:base
+Priority:optional
+Architecture: all
+Maintainer: MIT Antananarivo Developers <mit@antananarivo.mg> 
+Depends: mpg123,figlet
+Homepage: http://www.pharmacie.mg
+Description: GESTIONNAIRE DE PHARMACIE
+
