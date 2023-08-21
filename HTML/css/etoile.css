@@ -1,0 +1,24 @@
+*{
+    margin:0vw;                 /*marge tsy asina marge @ sisiny*/
+    padding:0vw;                /*tsy asina marge ao anatiny*/
+    box-sizing: border-box;     /*tsy asina elanelany ny zvtr ao*/
+}
+.etoile{
+    width: 20vw;
+    height: 20vw;
+    border: yellow;
+    background-color: black;
+    clip-path: polygon(0% 50% ,25% 75% ,45% 100% ,65% 75% ,100% 75% ,75% 65% ,55% 45%, 100% 25% , 45% 0%);
+    animation: miodina 5s linear infifite;
+}
+
+@keyframes miodina{
+    from{
+        rotate: 180deg;
+        color: aqua;
+    }
+    to{
+        rotate: 360deg;
+        color: brown;
+    }
+}
