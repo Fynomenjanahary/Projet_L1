@@ -1,0 +1,275 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+}
+
+@font-face{
+    font-family: mafatifaty;
+    src: url(fonts/Megrim-Regular.ttf);
+}
+@font-face{
+    font-family: masiso;
+    src: url(fonts/DancingScript-SemiBold.ttf);
+}
+
+
+#menuContainer {
+    position: relative;
+    display: inline-block;
+}
+  
+#menuButton {
+    width: 3vw;
+    height: 3vw;
+    background-image: url("../photo/menu3.png");
+    background-size: cover;
+    color: #fff;
+    padding: 0vw;
+    border-radius: 50vw;
+    position: relative;
+    top: -1.7vw;
+    border: none;
+    cursor: pointer;
+}
+  
+#menu {
+    display: none;
+    position: absolute;
+    width: 15vw;
+    height: 30vw;
+    top: 100%;
+    bottom: 2vw;
+    left: -6vw;
+    text-align: left;
+    font-size: 1.8VW;
+    background-color: #b384b3;
+    margin-top: -1vw;
+    border: 1px solid #6b5b5b;
+    padding: 10px;
+}
+  
+  /* Afficher le menu lorsque le bouton ou le menu lui-même est survolé */
+#menuContainer:hover #menu {
+    display: block;
+    background-color: #ffffff;
+}
+
+a {
+    color: blue; /* Remplacez "blue" par la couleur de votre choix */
+  }
+  
+  /* Change la couleur des liens visités */
+  a:visited {
+    color: purple; /* Remplacez "purple" par la couleur de votre choix */
+  }
+  
+  /* Change la couleur des liens au survol */
+  a:hover {
+    color: red; /* Remplacez "red" par la couleur de votre choix */
+  }
+  
+  /* Change la couleur des liens actifs (lorsqu'ils sont cliqués) */
+  a:active {
+    color: green; /* Remplacez "green" par la couleur de votre choix */
+  }
+  
+
+.h{
+    color: white;
+    font-size: 5vw;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1vw;
+    position: fixed;
+    font-family:mafatifaty;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100vw;
+    height: 6vw;
+    z-index: 5;
+    background-image: url("../photo/christoffer-engstrom-wc9avd2RaN0-unsplash.jpg");
+}
+.acceuil{
+    display: flex;
+    height: 5vw;
+    justify-content: space-around;
+}
+
+.feelling{
+    height: 3vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    width: 20vw;
+    position: relative;
+    left: 80vw;
+    font-size: 1.5vw;
+    top: -1vw;
+    background-color: rgb(114, 173, 214);
+    box-shadow: 0.5vw 0.5vw 0.3vw rgb(89, 123, 139);
+    color: black;
+    z-index: 2;
+    rotate: 20deg;
+}
+.sary1{
+    margin-left: 5vw;
+    background-size: cover;
+    padding-top: 2vw;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 2vw;
+    text-align: center;
+    height: 35vw;
+    left: 50vw;
+    width: 40vw;
+    box-shadow: 1vw 1vw 0.7vw rgb(72, 89, 110);
+    background-image: url("../photo/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg");
+    z-index: 1;
+    rotate: -10deg;
+}
+
+.feelling2{
+    height: 3vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    width: 20vw;
+    position: relative;
+    font-size: 1.5vw;
+    bottom: -5vw;
+    left: 8vw;
+    background-color: rgb(118, 179, 248);
+    box-shadow: 0.5vw 0.5vw 0.3vw rgb(66, 92, 139);
+    color: black;
+    rotate: -24deg;
+    z-index: 2;
+}
+.sary2{
+    margin-left: 15vw;
+    background-size: cover;
+    margin-top: 6vw;
+    padding-top: 2vw;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    height: 25vw;
+    width: 40vw;
+    box-shadow: 1vw 1vw 0.7vw rgb(40, 103, 133);
+    background-image: url("../photo/jeremy-bishop-1braZySlEKA-unsplash.jpg");
+    rotate: 10deg;
+    z-index: 1;
+}
+
+.feelling3{
+    height: 3vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    width: 20vw;
+    position: relative;
+    font-size: 1.5vw;
+    bottom: -5vw;
+    left: 80vw;
+    background-color: rgb(100, 60, 0);
+    box-shadow: 0.5vw 0.5vw 0.3vw rgb(70, 50, 34);
+    color: black;
+    rotate: 24deg;
+    z-index: 2;
+}
+.sary3{
+    background-size: cover;
+    margin-top: 6vw;
+    margin-left: 50vw;
+    padding: 2vw 1vw;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    height: 30vw;
+    width: 40vw;
+    box-shadow: 1vw 1vw 0.7vw rgb(139, 112, 117);
+    background-image: url("../photo/linus-sandvide-5DIFvVwe6wk-unsplash.jpg");
+    rotate: -10deg;
+    z-index: 1;
+}
+
+.what{
+    width: 15vw;
+    height: 4vw;
+    border-radius: 2vw;
+    text-align: center;
+    padding-top: 1.3vw;
+    position: relative;
+    bottom: -5vw;
+    left: 30vw;
+    font-family: masiso;
+    background: linear-gradient(90deg , rgb(114, 0, 0) , rgb(255, 113, 19));
+    /* opacity:0.5; */
+    color: black;
+    box-shadow: 0.5vw 0.5vw 0.4vw rgb(133, 67, 24);
+    z-index: 2;
+}
+.what:hover{
+    width: 17vw;
+    height: 4vw;
+    border-radius: 2vw;
+    text-align: center;
+    padding-top: 1.3vw;
+    position: relative;
+    bottom: -5vw;
+    left: 30vw;
+    font-family: masiso;
+    background: linear-gradient(90deg , rgb(114, 0, 0) , rgb(255, 113, 19));
+    /* opacity:0.5; */
+    color: black;
+    box-shadow: 0.5vw 0.5vw 0.4vw rgb(133, 67, 24);
+    z-index: 2;
+}
+
+#mess{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 2vw;
+    font-family: masiso;
+    padding-top: 2vw;
+    background-color: rgb(205, 224, 224);
+    position: relative;
+    left:36vw;
+    bottom: -4vw;
+    font-size: 2vw;
+    word-wrap: break-word;
+    z-index: 1;
+    resize: none; /* Empêche le redimensionnement de la zone de texte */
+}
+#mess:hover{
+    width: 35vw;
+    height: 25vw;
+    border-radius: 2vw;
+    padding-top: 2vw;
+    font-family: masiso;
+    background-color: rgb(205, 224, 224);
+    position: relative;
+    left:32vw;
+    bottom: -4vw;
+    word-wrap: break-word;
+    z-index: 1;
+    resize: none; /* Empêche le redimensionnement de la zone de texte */
+}
+#what{
+    width: 15vw;
+    height: 4vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 1vw;
+    position: relative;
+    bottom: -5vw;
+    left: 30vw;
+    font-family: masiso;
+    background: linear-gradient(90deg , rgb(114, 0, 0) , rgb(255, 113, 19));
+    /* opacity:0.5; */
+    color: black;
+    box-shadow: 0.5vw 0.5vw 0.4vw rgb(133, 67, 24);
+    z-index: 2;
+}
+

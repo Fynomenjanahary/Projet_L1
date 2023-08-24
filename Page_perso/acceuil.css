@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; 
+}
+
+@font-face{
+  font-family: mafatifaty;
+  src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+#menuContainer {
+  position: relative;
+  display: inline-block;
+}
+
+#menuButton {
+  width: 3vw;
+  height: 3vw;
+  background-image: url("../photo/menu3.png");
+  background-size: cover;
+  color: #fff;
+  padding: 0vw;
+  border-radius: 50vw;
+  position: relative;
+  top: -4.2vw;
+  border: none;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  width: 15vw;
+  height: 25vw;
+  top: 100%;
+  bottom: 2vw;
+  left: -5vw;
+  text-align: left;
+  font-size: 2VW;
+  background-color: #776e77;
+  margin-top: -1.8vw;
+  border: 1px solid #6b5b5b;
+  padding: 10px;
+}
+#menu:hover{
+  background-color: #ffffff;
+  font-size: 2VW;
+}
+
+@media(min-width:500px){
+  menu{
+    font-size: 100px;
+    background-color: #ffffff;
+  }
+}
+
+/* Afficher le menu lorsque le bouton ou le menu lui-même est survolé */
+#menuContainer:hover #menu {
+  display: block;
+}
+
+.bare{
+    width: 100vw;
+    height: 10vw;
+    position:fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../photo/freestocks-r_oV6smBBYk-unsplash.jpg");
+}
+
+.acceuil{
+    display: flex;
+    height: 5vw;
+    justify-content: space-around;
+}
+
+  .h{
+    color: white;
+    font-size: 8vw;
+    font-family:mafatifaty;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100vw;
+    height: 30vw;
+    background-image: url("../photo/aaron-burden-pCfJKUB5bes-unsplash.jpg");
+}
+
+/* Change la couleur des liens non visités */
+a {
+  color: blue; /* Remplacez "blue" par la couleur de votre choix */
+}
+
+/* Change la couleur des liens visités */
+a:visited {
+  color: purple; /* Remplacez "purple" par la couleur de votre choix */
+}
+
+/* Change la couleur des liens au survol */
+a:hover {
+  color: red; /* Remplacez "red" par la couleur de votre choix */
+}
+
+/* Change la couleur des liens actifs (lorsqu'ils sont cliqués) */
+a:active {
+  color: green; /* Remplacez "green" par la couleur de votre choix */
+}
