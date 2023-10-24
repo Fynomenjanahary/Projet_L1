@@ -1,4 +1,0 @@
-#!/bin/sh
-gcc  /usr/local/src/pharmacie.c /usr/local/src/project.c -o /usr/bin/pharmagest
-echo "INSTALLATION TERMINÉE"
-echo "succes !"

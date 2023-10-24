@@ -1,1 +1,0 @@
-int* remplissage(int* vect);
